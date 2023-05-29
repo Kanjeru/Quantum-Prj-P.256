@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Computerele Cuantice</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="header">
+  <div id="left-line"></div>
+  <div id="right-line"></div>  
+  
+  <script src="Script.js"></script>
+  
+<section id="login">
+  <button id="login-button" onclick="toggleLoginForm()">Login</button>
+  <div id="login-form" class="hidden">
+    <h2>Login</h2>
+    <form onsubmit="handleLogin(event)">
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+</section>
+
+    <section id="signup">
+  <button id="signup-button" onclick="toggleSignUpForm()">Sign Up</button>
+  <div id="signup-form" class="hidden">
+    <h2>Sign Up</h2>
+    <form onsubmit="handleSignUp(event)">
+      <input type="text" placeholder="Username" required><br>
+      <input type="password" placeholder="Password" required><br>
+      <input type="submit" value="Sign Up">
+    </form>
+  </div>
+</section>
+<div class="d-flex flex-column justify-content-center w-100 h-100">
+	<div class="d-flex flex-column justify-content-center align-items-center">	
+</div>
+</div>
+<h1><u><font size="+20">Computerizarea Cuantică pentru tocilari</h1></div></font></u></h1>
+</div>
+
+  <section id="navigation">
+    <button onclick="scrollToSection('intro')">Introducere</button>
+    <button onclick="scrollToSection('principles')">Principiile Computerizării Cuantice</button>
+    <button onclick="scrollToSection('algorithms')">Algoritmii Cuantici</button>
+    <button onclick="scrollToSection('hardware')">Hardware Cuantic</button>
+    <button onclick="scrollToSection('error-correction')">Corectarea Erorilor Cuantice</button>
+    <button onclick="scrollToSection('programming')">Programarea Cuantică</button>
+    <button onclick="scrollToSection('applications')">Aplicări Cuantice</button>
+    <button onclick="scrollToSection('community')">Resursele și Comunitatea Cuantică</button>
+  </section>
+  
+  <div class="d-flex flex-column justify-content-center w-100 h-100">
+    <div class="d-flex flex-column justify-content-center align-items-center">	
+  </div>
+  </div>
+
+  <div id="content">
+    <h1><center>Bun venit pe site-ul nostru despre Computerizarea Cuantică!</center></h1>
+    <p><center>Aici puteți învăța despre frumusețea Computerizării Cuantice și a Computerelor Cuantice.</center></p>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/e3fz3dqhN44?autoplay=0" frameborder="0" allowfullscreen></iframe>
+      <p>Cleo Abram, Computerele Cuantice, explicate împreună MKBHD</p>
+    </div>
+    
+     <section id="intro">
+    <h2>Introducere în Computerele Cuantice</h2>
+    <div class="image-container">
+      <img src="https://image.cnbcfm.com/api/v1/image/106198807-1571848425507handoutgooglepichaiquantum.jpg?v=1664024182" alt="Introduction to Quantum Computers">
+    </div>
+    <h1>Ce sunt Computerele Cuantice și cum diferă acestea față de Computerele Clasice?</h1>
+    <p>
+Calculatoarele cuantice sunt un tip de dispozitiv de calcul care utilizează principii din mecanica cuantică pentru a efectua calcule. Ele diferă de computerele clasice prin modul în care  informaţiile sunt procesate şi stocate.</p>
+    <p>Calculatoarele clasice folosesc biți pentru a reprezenta și stoca informații, fiecare bit fiind în una dintre cele două stări: 0 sau 1. Calculatoarele cuantice, pe de altă parte, folosesc biți cuantici sau qubiți, care pot reprezenta 0 și 1 simultan datorită unei proprietăți cuantice numită superpoziție cuantică.</p>
+    <p>Totodată, calculatoarele cuantice valorifică un alt fenomen cuantic numit entanglare cuantică, în care stările mai multor qubiți devin corelate. Această proprietate permite calculatoarelor cuantice să efectueze calcule paralele și, să ofere o putere de calcul semnificativă și o accelerare pentru anumite probleme.</p>
+
+    <h1>Potențiale Aplicări și Benificii ale Computerizării Cuantice</h1>
+    <ol>
+      <li>
+        <h2>Criptografie</h2>
+        <p>
+Calculatoarele cuantice au potenţialul de a trece de mulţi dintre algoritmii criptografici utilizaţi în prezent pentru a securiza informaţiile sensibile. Cu toate acestea, ele pot oferi și soluții pentru criptografia rezistentă la cuantum, asigurând o comunicare securizată în viitor.</p>
+      </li>
+      <li>
+        <h2>Optimizare</h2>
+        <p>Calculatoarele cuantice pot oferi îmbunătățiri semnificative în rezolvarea problemelor complexe de optimizare, cum ar fi optimizarea rutelor, managementul lanțului de aprovizionare și optimizarea portofoliului financiar. Aceste probleme pot beneficia de paralelismul și capacitățile de optimizare ale algoritmilor cuantici.</p>
+      </li>
+      <li>
+        <h2>Descoperirea Medicamentelor și Știința Materialelor</h2>
+        <p>Simulările cuantice pot ajuta la descoperirea de noi medicamente și materiale prin modelarea cu precizie a proprietăților și interacțiunilor moleculare. Calculatoarele cuantice pot explora un număr mare de posibilități și pot ajuta la identificarea unor medicamente și materiale mai eficiente într-un interval de timp mai scurt
+.</p>
+      </li>
+      <li>
+        <h2>Machine Learning și AI</h2>
+        <p>Calculul cuantic poate îmbunătăți algoritmii pentru machine learning, oferind o procesare mai rapidă și mai eficientă a seturilor de date mari. Algoritmii cuantici pentru machine learning pot extrage tipare complexe și perspective din date, ceea ce duce la progrese în domenii precum recunoașterea tiaparelor, clasificarea datelor și optimizarea.</p>
+      </li>
+      <li>
+        <h2>Simulări Științifice</h2>
+        <p>Calculatoarele cuantice pot simula sisteme fizice cu mare precizie, permițând oamenilor de știință să studieze fenomene complexe, cum ar fi comportamentul moleculelor, materialelor și particulelor subatomice. Aceste simulări pot ajuta la descoperiri științifice și pot avansa înțelegerea noastră asupra lumii naturale.</p>
+      </li>
+      <li>
+        <h2>Modelare Financiară</h2>
+        <p>Calculatoarele cuantice pot ajuta la modelarea financiară și analiza riscurilor, permițând predicții și optimizări mai precise în domenii precum managementul portofoliului, evaluarea riscurilor și stabilirea prețurilor opțiunilor.</p>
+      </li>
+    </ol>
+  </section>
+
+   <section id="principles">
+    <h2>Principiile Computerizării Cuantice</h2>
+    <div class="image-container">
+      <img src="https://www.nato.int/docu/review/images/00e37b_2_quantum-principles_deloitte-insights.jpg" alt="Quantum Computing Principles">
+    </div>
+    <h1>Principii Cheie ale Computerizării Cuantice</h1>
+    <h2>Superpoziția</h2>
+    <p>În computerizarea cuantică, superpoziția este un principiu fundamental în care un sistem cuantic poate exista în mai multe stări simultan. Spre deosebire de biții clasici, care pot reprezenta doar 0 sau 1, un bit cuantic sau qubit poate fi într-o superpoziție a lui 0 și 1 în același timp.</p>
+    <p>Această proprietate permite calculatoarelor cuantice să efectueze calcule paralele prin explorarea mai multor stări simultan, oferind avantaje computaționale semnificative pentru anumite probleme.</p>
+
+    <h2>Entanglarea</h2>
+    <p>Entanglarea este un alt principiu cheie al mecanicii cuantice care joacă un rol crucial în calculul cuantic. Când qubiții devin "cuplați", stările mai multor qubiți devin corelate, chiar și atunci când sunt separați fizic.</p>
+    <p>Acest fenomen permite computerelor cuantice să atingă capacități de calcul puternice. Manipularea unui qubit poate afecta instantaneu starea altui qubit care este "cuplat" cu el, indiferent de distanța fizică dintre ele.</p>
+
+    <h2>Porțile Cuantice</h2>
+    <p>În calculul cuantic, porțile cuantice sunt analaoge porților logice din calculul clasic. Porțile cuantice sunt blocurile de construcție folosite pentru a manipula qubiții și a efectua operații cuantice.</p>
+    <p>Porțile cuantice pot schimba starea unui qubit sau pot "cupla" mai mulți qubiți, permițând calcule și transformări complexe. Exemple de porți cuantice includ poarta Hadamard, poarta CNOT și porțile Pauli.</p>
+
+    <h1>Biții Cuantici (Qubiți) și avantajele lor</h1>
+    <p>Biții cuantici, sau qubiții, sunt unitățile fundamentale de informație în computerizarea cuantică. Spre deosebire de biții clasici care pot reprezenta doar 0 sau 1, qubiții pot exista în superpoziții de stări, permițându-le să reprezinte și să proceseze informațiile într-un mod fundamental diferit.</p>
+    <p>Avantajele qubiților față de biții clasici includ:</p>
+    <ul>
+      <li>Putere de calcul crescută: qubiții pot efectua calcule paralele datorită superpoziției, oferind o accelerare exponențială pentru anumite probleme.</li>
+      <li>Capacitate de stocare îmbunătățită: sistemele cuantice pot stoca și procesa o cantitate exponențial mai mare de informații în comparație cu sistemele clasice.</li>
+      <li>Procesare îmbunătățită a datelor: algoritmii cuantici pot folosi proprietățile qubitului pentru a extrage mai eficient tipare și informații din seturi mari de date.</li>
+      <li>Capacități avansate de rezolvare a problemelor: Qubiții permit explorarea  probleme complexe și capacitatea de a rezolva problemele de optimizare și simulare mai eficient.</li>
+      <li>Comunicare cuantică: qubiții pot fi utilizați pentru comunicarea securizată prin criptarea cuantică și protocoalele de distribuție a cheilor cuantice.</li>
+    </ul>
+    <div class="image-container">
+    <img src="https://devopedia.org/images/article/68/1311.1613047017.png" alt="Quantum Computing Principles.2">
+  </div>
+  </section>
+
+ <section id="algorithms">
+  <h2>Algoritmi Cuantici</h2>
+  <h1>Prezentare generală a algoritmilor cuantici notabili</h1>
+  <h2>Algoritmul lui Shor</h2>
+  <p>Algoritmul lui Shor este un algoritm cuantic care poate descompune eficient numere mari în factorii lor primi. Are implicații semnificative pentru distrugerea sistemelor criptografice cu cheie publică, cum ar fi algoritmul RSA utilizat pe scară largă.</p>
+  <p>Algoritmul lui Shor profită de proprietatea cuantică a superpoziției și a transformărilor Fourier cuantice pentru a efectua calcule în paralel, ceea ce duce la o accelerare exponențială în comparație cu algoritmii clasici..</p>
+  <div class="image-container">
+    <img src="https://pbs.twimg.com/media/DpAzEuMWkAAymJ4.jpg" alt="Quantum Computing Algorithms">
+  </div>
+  <h2>Algoritmul lui Grover</h2>
+  <p>Algoritmul lui Grover este un algoritm de căutare cuantică care poate găsi eficient un anumit lucru într-o bază de date nesortă. Oferă o accelerare pătratică în comparație cu algoritmii de căutare clasici, care au o complexitate liniară în timp.</p>
+  <p>Algoritmul lui Grover folosește proprietatea cuantică a amplificării în amplitudine și aplică o secvență de operații cuantice pentru a amplifica probabilitatea de a găsi elementul dorit, ceea ce duce la un proces de căutare mai eficient.</p>
+  <div class="image-container">
+    <img src="https://iqx-docs.quantum-computing.ibm.com/_images/example42.png" alt="Quantum Computing Algorithms.2">
+  </div>
+  <h2>Exploatarea proprietăților cuantice pentru eficiență</h2>
+  <p>Algoritmii cuantici precum algoritmul lui Shor și algoritmul lui Grover exploatează proprietăți specifice ale sistemelor cuantice pentru a rezolva probleme mai eficient decât algoritmii clasici:</p>
+  <ul>
+    <li><strong>Superpoziția:</strong> Algoritmii cuantici pot procesa simultan mai multe posibilități prin superpoziție, explorând diferite căi de calcul în paralel. Acest lucru permite explorarea eficientă a spațiilor mari cu probleme și o cale mai rapidă către soluții.</li>
+    <li><strong>Interferența:</strong> Algoritmii cuantici utilizează efecte de interferență pentru a amplifica probabilitatea rezultatelor corecte și pentru a le suprima pe cele incorecte. Interferența joacă un rol crucial în capacitatea algoritmilor cuantici de a găsi soluții optime mai eficient.</li>
+    <li><strong>Entanglarea:</strong> Algoritmii cuantici profită de entanglare pentru a stabili corelații între qubiți, permițând calcule colective și capacități îmbunătățite de rezolvare a problemelor. Entanglarea permite algoritmilor cuantici să ia în considerare proprietățile globale ale spațiului problematic.</li>
+    <li><strong>Paralelismul cuantic:</strong> Algoritmii cuantici exploatează paralelismul cuantic pentru a efectua calcule pe mai multe inputuri simultan, reducând în mod eficient complexitatea de timp a anumitor probleme.</li>
+  </ul>
+  <p>Prin valorificarea acestor proprietăți cuantice, algoritmi precum cel al lui Shor și cel al lui Grover oferă potențialul de accelerare semnificativă a calculului și capacitatea de a rezolva probleme complexe mai eficient decât algoritmii clasici.</p>
+
+</section>
+
+<section id="hardware">
+  <h2>Hardware Cuantic</h2>
+  <h1>Tipuri de platforme hardware cuantice</h1>
+    <h2>Qubiți supraconductori</h2>
+    <p>Qubiții supraconductori sunt o platformă hardware de vârf pentru construirea computerelor cuantice. Ei se bazează pe circuite supraconductoare care prezintă un comportament cuantic la temperaturi extrem de scăzute. Qubiții supraconductori sunt cunoscuți pentru flexibilitatea și ușurința de scalabilitate, permițând integrarea unui număr mare de qubiți.</p>
+
+    <h2>Ionii prinși</h2>
+    <p>Ionii prinși sunt o altă platformă proeminentă pentru calculul cuantic. Ele implică captarea ionilor individuali folosind câmpuri electromagnetice și manipularea stărilor lor cuantice folosind impulsuri laser. Ionii prinși oferă o coerență excelentă a qubitului și operațiuni de înaltă fidelitate, făcându-i potriviți pentru diverși algoritmi cuantici.</p>
+
+    <h2>Qubiți topologici</h2>
+    <p>
+Qubiții topologici sunt o dezvoltare mai recentă în domeniul calculului cuantic. Ei folosesc proprietățile topologice ale stărilor exotice ale materiei, cum ar fi anyoni, pentru a codifica și manipula informațiile cuantice. Qubiții topologici au avantajul de a fi robuști împotriva anumitor tipuri de zgomot și erori.</p>
+
+    <h1>Provocări în construirea și scalarea hardware-ului cuantic</h1>
+    <p>Construirea și scalarea hardware-ului cuantic prezintă mai multe provocări:</p>
+    <ul>
+      <li><strong>Zgomot și incoerență:</strong> Sistemele cuantice sunt foarte predispuse la zgomot și interferențe de mediu, ceea ce duce la erori și pierderea coerenței. 
+Depășirea zgomotului și menținerea stabilității qubitului sunt provocări cruciale în construirea de hardware cuantic fiabil.</li>
+      <li><strong>Conectivitate qubiților</strong> Obținerea conectivității qubiților pe rază lungă este esențială pentru executarea algoritmilor cuantici complecși. Să te asiguri că mereu qubiții pot interacționa eficient între ei, chiar și atunci când sunt separați fizic, este o provocare semnificativă în proiectarea hardware-ului cuantic.</li>
+      <li><strong>Corectarea erorilor:</strong> Corectarea erorilor cuantice este vitală pentru protejarea informațiilor cuantice de erori.  Dezvoltarea unor coduri de corectare a erorilor și implementarea schemelor de corectare a erorilor în hardware introduce cerințe suplimentare de complexitate și resurse.</li>
+      <li><strong>Scalabilitate:</strong> Extinderea hardware-ului cuantic la sisteme mai mari cu un număr mai mare de qubiți este o provocare semnificativă. Menținerea performanței qubiților, reducerea diafoniei și gestionarea complexității crescute reprezintă obstacole substanțiale în realizarea arhitecturilor cuantice scalabile.</li>
+      <li><strong>Producția și integrarea:</strong> 
+Fabricarea și integrarea diferitelor componente ale hardware-ului cuantic necesită tehnici avansate de fabricație și control de precizie. Realizarea operațiunilor cu qubiți de înaltă fidelitate și minimizarea imperfecțiunilor dispozitivului sunt cruciale pentru calculul cuantic fiabil.</li>
+    </ul>
+    <p>Abordarea acestor provocări este vitală pentru realizarea calculatoarelor cuantice practice și la scară largă, care pot efectua calcule complexe și pot rezolva problemele din lumea reală în mod eficient.</p>
+  <div class="image-container">
+    <img src="https://spectrum.ieee.org/media-library/intel-quantum-computing-researcher-david-michalak-inspects-part-of-a-quantum-computing-system-at-the-companys-hillsboro-ore.jpg?id=25592299&width=1200&height=600&coordinates=0%2C63%2C0%2C63" alt="Quantum Computing Hardware">
+  </div>
+</section>
+
+<section id="error-correction">
+  <h2>Corectarea erorilor cuantice</h2>
+  <h1>Corectarea erorilor cuantice în computerizarea  cuantică</h1>
+    <p>Corectarea erorilor cuantice este un concept critic în menținerea fiabilității și acurateței calculelor cuantice. În sistemele cuantice există o probabilitate foarte crescută să apară erori cauzate de diverși factori, cum ar fi zgomotul, incoerența și operațiunile imperfecte. Aceste erori se pot acumula rapid și pot compromite integritatea informațiilor cuantice procesate.</p>
+
+    <h2>Importanța corectării erorilor cuantice</h2>
+    <p>Corectarea erorilor cuantice are ca scop detectarea și corectarea erorilor care apar în timpul calculelor cuantice, păstrând informațiile cuantice și permițând rezultate precise. Fără corectarea erorilor, fragilitatea stărilor cuantice și susceptibilitatea lor la perturbații de mediu ar limita eficacitatea și caracterul practic al calculatoarelor cuantice.</p>
+
+    <h2>Tehnicile comune de corectare a erorilor</h2>
+    <p>Mai multe tehnici de corectare a erorilor sunt folosite în calculul cuantic:</p>
+    <ul>
+      <li><strong>Coduri de stabilizare:</strong> Codurile de stabilizare, cum ar fi binecunoscutul cod de suprafață, sunt utilizate pe scară largă în corectarea erorilor cuantice. 
+Aceste coduri codifică informații cuantice într-un sistem mai mare și folosesc măsurători atent concepute pentru a detecta și corecta erorile.</li>
+      <li><strong>Concatenarea codului:</strong> Concatenarea codului implică utilizarea mai multor straturi de coduri de corectare a erorilor. Prin imbricarea codurilor, este posibil să se obțină niveluri mai mari de rezistență la erori, cu prețul unei sarcini de calcul crescute..</li>
+      <li><strong>Tehnica FT (Fault-Tolerant):</strong> Tehnica Fault-Tolerant folosețte o combinație de detectare a erorilor, corectare a erorilor și suprimare a erorilor pentru a proteja informațiile cuantice. Aceste tehnici urmăresc să asigure integritatea calculului chiar și în prezența erorilor.</li>
+      <li><strong>Corectarea erorilor cuantice active:</strong> 
+Tehnicile active de corectare a erorilor cuantice monitorizează și corectează continuu erorile în timpul calculului cuantic. Aceste tehnici implică de obicei utilizarea controlului feedback-ului pentru a ajusta dinamic operațiile cuantice bazate pe detectarea erorilor.</li>
+    </ul>
+    <p>
+Codurile și tehnicile de corectare a erorilor cuantice sunt concepute pentru a detecta și corecta erorile, reducând în același timp la minimum impactul propagării erorilor. Ele oferă un cadru pentru construirea de sisteme de calcul cuantic fiabile și tolerante la erori.</p>
+  <div class="image-container">
+    <img src="https://quantum-journal.org/wp-content/uploads/2019/12/1812.08451v4.png" alt="Quantum error-correction">
+  </div>
+</section>
+
+<section id="programming">
+  <h2>Programarea cuantică</h2>
+  <h1>Limbaje și cadre de programare cuantice populare</h1>
+  <p>Pe măsură ce calculul cuantic continuă să evolueze, au apărut mai multe limbaje și cadre de programare pentru a facilita dezvoltarea și execuția algoritmilor cuantici. Aceste instrumente oferă o abstractizare la nivel înalt pentru programarea sistemelor cuantice și permit cercetătorilor și dezvoltatorilor să lucreze eficient cu hardware și simulatoare cuantice.</p>
+
+  <h2>Qiskit</h2>
+  <p>Qiskit este un cadru de calcul cuantic open-source dezvoltat de IBM. 
+Oferă o suită cuprinzătoare de instrumente, biblioteci și API-uri pentru proiectarea, simularea și execuția circuitelor cuantice pe diferite backend-uri cuantice. Qiskit acceptă mai multe limbaje de programare, inclusiv Python, și oferă un set bogat de funcționalități pentru explorarea și experimentarea cu algoritmi cuantici.</p>
+
+  <h2>Cirq</h2>
+  <p>Cirq este un cadru de programare cuantică dezvoltat de Google. Se concentrează pe furnizarea unei abordări flexibile și de nivel scăzut a construcției și simulării circuitelor cuantice. Cirq permite dezvoltatorilor să definească circuite cuantice folosind Python și oferă o gamă largă de instrumente pentru optimizarea circuitelor, modelarea zgomotului și optimizările specifice hardware-ului.</p>
+
+  <h2>Forest</h2>
+  <p>Forest este un cadru de programare cuantică dezvoltat de Rigetti Computing. Oferă un mediu de programare bazat pe Python pentru calculul cuantic și oferă acces la procesoarele și simulatoarele cuantice Rigetti. Forest include instrumente de proiectare, execuție și analiză a circuitelor, făcându-l potrivit atât pentru dezvoltarea algoritmului, cât și pentru experimentare.</p>
+
+  <p>Aceste limbaje și cadre de programare cuantică sunt menținute și susținute în mod activ de organizația lor respectivăs. Ele oferă un set puternic de instrumente și resurse pentru a facilita dezvoltarea algoritmului cuantic și pentru a ajuta cercetătorii și dezvoltatorii să exploreze potențialul computerizării cuantice.</p>
+  <div class="image-container">
+    <img src="https://quantumcomputingreport.com/wp-content/uploads/2019/01/cirq-qchart.jpg" alt="Quantum Computing Languages and Frameworks">
+  </div>
+  <h1>Programe sau circuite cuantice simple</h1>
+    <p>Iată un exemplu de circuit cuantic simplu folosind cadrul Qiskit:</p>
+
+    <pre>
+      <code>
+        import qiskit
+
+        # Create a quantum circuit with two qubits
+        circuit = qiskit.QuantumCircuit(2)
+
+        # Apply a Hadamard gate to the first qubit
+        circuit.h(0)
+
+        # Apply a CNOT gate between the first and second qubits
+        circuit.cx(0, 1)
+
+        # Measure the qubits
+        circuit.measure_all()
+
+        # Simulate the circuit on a quantum simulator
+        simulator = qiskit.Aer.get_backend('qasm_simulator')
+        job = qiskit.execute(circuit, simulator, shots=1000)
+        result = job.result()
+        counts = result.get_counts()
+
+        # Print the measurement results
+        print(counts)
+      </code>
+    </pre>
+
+    <p>În acest exemplu, creăm un circuit cuantic cu doi qubiți. Aplicăm o poartă Hadamard la primul qubit, care îl pune într-o stare de superpoziție. Apoi, aplicăm o poartă CNOT între primul și al doilea qubit, cuplându-i. În cele din urmă, măsurăm qubiții pentru a obține rezultate de măsurare.</p>
+
+    <p>Circuitul este apoi simulat pe un simulator cuantic folosind backend-ul Qiskit Aer. Executăm circuitul pentru 1000 de lovituri și recuperăm numărul de măsurători. Numărul lor reprezintă de câte ori apare fiecare rezultat al măsurării.</p>
+
+    <p>Acesta este un exemplu de bază pentru a demonstra structura unui program sau circuit cuantic. Circuite mai complexe pot fi construite prin combinarea diferitelor porți și operații cuantice pentru a efectua calcule specifice sau algoritmi cuantici.</p>
+</section>
+
+<section id="applications">
+  <h1>Aplicații ale computerizării cuantice</h1>
+  <p>Computerizarea cuantică are potențialul de a revoluționa diverse domenii prin rezolvarea problemelor complexe mai eficient decât calculatoarele clasice. Iată câteva posibile aplicații ale calculului cuantic în diferite domenii:</p>
+  <div class="image-container">
+    <img src="https://pubs.acs.org/cms/10.1021/acsengineeringau.1c00033/asset/images/medium/eg1c00033_0032.gif" alt="Quantum Computing Applications">
+  </div>
+  <h2>Criptografie</h2>
+  <p>Calculatoarele cuantice pot rupe algoritmii criptografici tradiționali, care se bazează pe dificultatea descompunerii numerelor mari. Criptografia cuantică oferă metode sigure pentru criptarea datelor, distribuția cheilor și comunicarea securizată, valorificând proprietățile cuantice, cum ar fi protocoalele de cuplare și distribuție a cheilor cuantice.</p>
+
+  <h2>Optimizare</h2>
+  <p>Algoritmii cuantici, cum ar fi algoritmul de optimizare cuantică aproximativă (QAOA) și algoritmul Quantum Annealing, pot fi aplicați pentru a rezolva problemele de optimizare în mod eficient. Acești algoritmi au potențialul de a îmbunătăți sarcinile de optimizare în diverse domenii, cum ar fi managementul lanțului de aprovizionare, planificarea logisticii, optimizarea portofoliului și programarea.</p>
+
+  <h2>Descoperirea medicamentelor</h2>
+  <p>Calculul cuantic poate accelera procesul de descoperire a medicamentelor prin simularea interacțiunilor și proprietăților moleculare. Algoritmii cuantici, cum ar fi Variational Quantum Eigensolver (VQE), pot optimiza structurile moleculare și pot simula reacții chimice, ajutând la proiectarea de noi medicamente, catalizatori și materiale..</p>
+
+  <h2>Știința materialelor</h2>
+  <p>Calculatoarele cuantice pot modela și simula sisteme fizice complexe, permițând descoperirea de noi materiale cu proprietățile dorite. Prin valorificarea algoritmilor cuantici, cercetătorii pot explora materiale pentru stocarea energiei, supraconductivitate și electronică avansată, ceea ce duce la progrese în domenii precum energia, electronica și nanotehnologia.</p>
+
+  <p>Acestea sunt doar câteva exemple ale potențialelor aplicații ale computerizării cuantice. Pe măsură ce domeniul continuă să avanseze, este probabil să apară mai multe oportunități pentru calculul cuantic de a avea un impact semnificativ în diverse industrii și cercetarea științifică.</p>
+
+</section>
+
+<section id="community">
+  <h1>Resurse pentru învățarea computerizării cuantice</h1>
+    <p>Dacă sunteți interesat să aflați mai multe despre computerizarea cuantică, iată câteva resurse utile pentru a începe:</p>
+
+    <h2>Lucrări de cercetare</h2>
+    <ul>
+      <li><a href="https://arxiv.org/abs/quant-ph/0002077">Quantum Computing: A Gentle Introduction</a></li>
+      <li><a href="https://arxiv.org/abs/quant-ph/9508027">Quantum Computing and Shor's Factorization Algorithm</a></li>
+    </ul>
+
+    <h2>Cărți</h2>
+    <ul>
+      <li><a href="https://www.amazon.com/Quantum-Computing-Michael-Nielsen/dp/0262015064">Quantum Computing: A Gentle Introduction</a> de Eleanor Rieffel and Wolfgang Polak</li>
+    </ul>
+
+    <h2>Tutoriale</h2>
+    <ul>
+      <li><a href="https://qiskit.org/documentation/tutorials/circuits/1_getting_started_with_qiskit.html">Getting Started with Qiskit</a></li>
+      <li><a href="https://quantum-computing.ibm.com/support/guides">IBM Quantum Computing Guides</a></li>
+    </ul>
+
+    <h2>Cursuri online</h2>
+    <ul>
+      <li><a href="https://www.zhinst.com/europe/en/quantum-computing-systems/labone-q?gclid=CjwKCAjwscGjBhAXEiwAswQqNCp05n5jTripPidZw64ry6Bztq0DtWUrEvBUc9-S3sI31IgZDlTn-BoCg6oQAvD_BwE">Quantum Computing Systems</a> (Zurich Instruments)</li>
+      <li><a href="https://www.edx.org/learn/quantum-computing">Quantum Circuits, Architecture, and Computers</a> (edX)</li>
+    </ul>
+
+    <p>Aceste resurse ar trebui să vă ofere o bază solidă în computerizarea cuantică și să vă ajute să explorați subiectul în continuare. Spor la învățat!</p>
+
+    <h2>Conferințe și evenimente</h2>
+    <ul>
+      <li><a href="https://qiskit.org/events/">Qiskit Global Summer School</a> - O școală de vară organizată de comunitatea Qiskit pentru a oferi instruire intensivă în calculul cuantic.</li>
+    </ul>
+
+    <h2>Comunități online</h2>
+    <ul>
+      <li><a href="https://quantumcomputing.stackexchange.com/">Quantum Computing Stack Exchange</a> - O platformă de Q&A pentru pasionații de computerizarea cuantică pentru a pune întrebări și a împărtăși cunoștințele.</li>
+    </ul>
+
+    <p>Participarea la conferințe, participarea la evenimente și interacțiunea cu comunitățile online sunt modalități excelente de a învăța de la experți în domeniu și de a rămâne la curent cu cele mai recente progrese în domeniul calculului cuantic.</p>
+    
+    <h2>Video-uri online</h2>
+    <ul>
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/QuR969uMICM?autoplay=0" frameborder="0" allowfullscreen></iframe>
+        <p>Ted, A Beginner's guide to quantum computing</p>
+      </div>
+      
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/JhHMJCUmq28?autoplay=0" frameborder="0" allowfullscreen></iframe>
+        <p>Kurzgesagt – In a Nutshell, Quantum Computers Explained – Limits of Human Technology</p>
+      </div>
+      
+      <div class="video-container">
+        <iframe src="https://www.youtube.com/embed/jHoEjvuPoB8?autoplay=0" frameborder="0" allowfullscreen></iframe>
+        <p>Quanta Magazine, Quantum Computers, Explained With Quantum Physics</p>
+      </div>
+    </ul>
+
+  </section>
+    
+
+
+</body>
+  
+</html>
